@@ -1,0 +1,97 @@
+/* Creado por Ángel Hernández Ortiz. Última modificación 09/01/2019. ¡Feliz Año! */
+body{
+    background-color: lightgrey;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 300%;
+    text-align: center;
+    margin-top: -5px;
+}
+
+p{
+    font-size: 155%;
+}
+
+p.tipo1{
+    text-align: center;
+    border: #B18904 2px solid;
+    background-color: #F7D358;
+    margin-left: 9%;
+    margin-right: 9%;
+    padding-bottom: 4%;
+    padding-top: 10px;
+}
+
+p.tipo2{
+    text-align: left;
+    border: #99AB11 4px solid;
+    background-color: #F4FA58;
+    position: absolute;
+    top: 25%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    padding-left: 10px;
+    padding-top: 10px;
+
+}
+
+p.tipo3{
+    text-align: center;
+    border: darkgreen 4px solid;
+    background-color: lightgreen;
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    width: 38%;
+    height: 30%;
+    padding-top: 10px;
+    z-index: 2;
+}
+
+p.tipo4{
+    text-align: right;
+    border: lightblue 4px solid;
+    background-color: #BEF1ED;
+    position: absolute;
+    top: 25%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    padding-top: 5px;
+    padding-left: 3%;
+    padding-right: 10px;
+}
+
+p.tipo5{
+    text-align: left;
+    border: #A870B7 4px solid;
+    background-color: #EFDEF4;
+    position: absolute;
+    bottom: 7%;
+    left: 5%;
+    width: 35%;
+    height: 25%;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+p.tipo6{
+    text-align: right;
+    border: #A97060 4px solid;
+    background-color: #E8C1CA;
+    position: absolute;
+    bottom: 7%;
+    right: 5%;
+    width: 35%;
+    height: 25%;
+    padding-top: 5px;
+    padding-left: 3%;
+    padding-right: 10px;
+}
+
+p:hover {
+    z-index: 3;   
+}
